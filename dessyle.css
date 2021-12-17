@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    
+}
+body {
+    background-color:white;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    
+}
+
+.container{
+  max-width: 1300px;  
+    
+}
+header{
+    background-image:url(E1.jpg);
+    width: auto;
+    overflow: auto;
+    margin-top: 2%;
+}
+.logo{
+    float: left;
+}
+.logo h1{
+    color: gray;
+    margin-left:20px; 
+}
+.logo h1{
+    font-size:30px;
+}
+nav{
+    float: right;
+}
+nav ul {
+ width: auto;
+    overflow: auto;   
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 5px 15px;
+}
+
+nav ul li:hover{
+  border: 1px solid white;  
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: white;;
+    
+    font-size: 20px;   
+}
+.d1 {
+
+ background:url(bg.png) no-repating center;
+    background-size: cover;
+    padding: 40px 0;
+}
+
+/* Center website */
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+/* add padding between each column */
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+}
+
+/* clear float after rows*/ 
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
